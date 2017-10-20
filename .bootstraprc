@@ -1,0 +1,21 @@
+// For a full list of options, check https://github.com/shakacode/bootstrap-loader/blob/master/examples/css-modules/.bootstraprc
+{
+  "bootstrapVersion": 3,
+
+  "styleLoaders": [
+    "style-loader",
+    "css-loader",
+    "sass-loader"
+  ],
+
+  "styles": {
+    "mixins": true,
+    "normalize": true,
+
+    "scaffolding": true,
+    "type": true,
+    "grid": true
+  },
+
+  "bootstrapCustomizations": "./src/scss/_test.scss"
+}
